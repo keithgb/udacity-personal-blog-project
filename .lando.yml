@@ -1,0 +1,4 @@
+name: personal-blog
+recipe: lamp
+config:
+  webroot: wwwroot
