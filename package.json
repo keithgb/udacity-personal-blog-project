@@ -1,0 +1,28 @@
+{
+  "name": "udacity-blog",
+  "version": "1.0.0",
+  "description": "Udacity Personal Blog Project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files \"docs/css/*.css\" --index \"docs/index.html \"",
+    "validate": "echo \"validate\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithgb/udacity-personal-blog-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keithgb/udacity-personal-blog-project/issues"
+  },
+  "homepage": "https://github.com/keithgb/udacity-personal-blog-project#readme"
+}
